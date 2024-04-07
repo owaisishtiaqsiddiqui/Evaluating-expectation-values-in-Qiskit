@@ -20,3 +20,7 @@ where
 $$\langle\Psi| M |\Psi\rangle = \sum_{i} P_{i} m_{i} $$
 
 $$\langle M \rangle = (+1)P_{+} - (-1)P_{-} = P_{+} + P_{-} $$
+
+The above equations we ve written describe the process of calculating the expectation value of an operator M in quantum mechanics. In the context of quantum computing, this process is often done by preparing a quantum state |Ψ⟩, applying the operator M, and then measuring the resulting state.
+
+In your case, M is defined as M = P+ - P-, where P+ and P- are projectors onto the +1 and -1 eigenstates of M, respectively. The expectation value of M is then given by ⟨M⟩ = ⟨Ψ|M|Ψ⟩ = P+ - P-
